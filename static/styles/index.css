@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* base spacing */
+/* # base spacing # */
 body {
   margin: 0; /*  remove default margin */
   width: 100%; /* allow max width for smaller devices */
@@ -15,6 +15,7 @@ main {
 
 header { padding: 0.25em 0; }
 
+/* center button and it's child p */
 .alarm {
   display: flex;
   margin: 0 auto;
@@ -25,13 +26,13 @@ header { padding: 0.25em 0; }
   justify-content: center;
 }
 
-a {
+.alarm p {
   display: flex;
-  align-items: center;
+  align-self: center;
 }
 
 
-/* base colors */
+/* # base colors # */
 
 header { background-color: rgb(0, 9, 77); color: orange }
 
@@ -41,7 +42,7 @@ body {
 }
 
 .alarm { background-color: orange; }
-a { color: black; }
+.alarm p { color: black; }
 
 
 /* base font sizes */
