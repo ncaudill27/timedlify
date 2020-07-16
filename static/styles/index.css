@@ -16,11 +16,18 @@ main {
 header { padding: 0.25em 0; }
 
 .alarm {
-  display: block;
+  display: flex;
   margin: 0 auto;
   width: 50%;
   height: 2em; 
   border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
 }
 
 
