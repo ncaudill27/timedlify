@@ -15,7 +15,14 @@ main {
 
 header { padding: 0.25em 0; }
 
-a { margin: 0 auto; display: block; height: 2em; width: 50%; }
+.alarm {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 2em; 
+  border-radius: 5px;
+}
+
 
 /* base colors */
 
@@ -26,10 +33,8 @@ body {
   color: white;
 }
 
-a {
-  background-color: orange;
-  color: black;
-}
+.alarm { background-color: orange; }
+a { color: black; }
 
 
 /* base font sizes */
